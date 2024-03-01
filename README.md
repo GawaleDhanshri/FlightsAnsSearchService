@@ -1,4 +1,4 @@
-# WElcome to Flights and services 
+# Welcome to Flights and services 
 
 ## Project Setup 
 - clone this project on your local
@@ -17,3 +17,17 @@
   }
 }
 ...
+
+- once you have added your db config as listed above, go to the source folder from your terminal and and execute `npx sequelize db:create`
+
+## DB Design 
+   - Ariplane Table
+   - Flights 
+   - Airport
+   - City
+
+   - A flight belongs to an airplane but one airplane can be used in multiple flights
+   - A city has many airports but one airport belongs to a city
+   - one airport can have many flights but a flights belongs to one airport
+   
+    
