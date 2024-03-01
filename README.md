@@ -20,6 +20,10 @@
 
 - once you have added your db config as listed above, go to the source folder from your terminal and and execute `npx sequelize db:create`
 
+`npx sequelize db:migrate`
+
+...
+
 ## DB Design 
    - Ariplane Table
    - Flights 
@@ -29,5 +33,4 @@
    - A flight belongs to an airplane but one airplane can be used in multiple flights
    - A city has many airports but one airport belongs to a city
    - one airport can have many flights but a flights belongs to one airport
-   
-    
+
